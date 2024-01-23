@@ -1,0 +1,328 @@
+@media only screen and (max-width:1200px) {
+    .main-header-1 {
+        padding: 23px 23px;
+    }
+
+    .box {
+        width: 84%;
+    }
+
+    .main_sec_6 {
+        padding: 34px 34px;
+    }
+
+    .details_skills {
+        padding: 0px 34px;
+    }
+
+    .main_sec_1 {
+        padding: 34px 44px;
+    }
+
+    .im_2 {
+        width: 70%;
+        height: 340px;
+    }
+
+    .main_sec_2 {
+        padding: 34px 44px;
+    }
+}
+
+
+@media only screen and (max-width:900px) {
+    .main-header-1 {
+        padding: 23px 34px;
+        position: relative;
+    }
+
+    .box {
+        padding: 34px 58px;
+        flex-direction: column;
+        width: 84%;
+        gap: 37px;
+    }
+
+    .box_work {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 33px;
+        flex-direction: column;
+    }
+
+    .main_cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card_1 {
+        width: 53%;
+        padding: 22px;
+    }
+
+    .im_work {
+        width: 100%;
+    }
+
+    .close {
+        top: 6%;
+        left: 4%;
+        position: absolute;
+        display: block;
+    }
+
+    .close svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .bars svg {
+        width: 31px;
+        height: 31px;
+    }
+
+    .navbar {
+        transition: 1s ease;
+        position: relative;
+        padding-bottom: 12px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 11111;
+        width: 100%;
+        position: absolute;
+        top: -11000%;
+        left: 0;
+        background-color: #FAFAFA;
+    }
+
+    .list_items ul {
+        flex-direction: column;
+    }
+
+    .main_sec_1 {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .hero_image {
+        width: 100%;
+    }
+
+    .text_info {
+        width: 100%;
+    }
+
+    .im_2 {
+        height: 640px;
+        width: 100%;
+    }
+
+    .im_3 {
+        height: 520px;
+        width: 100%;
+    }
+
+    .main_content_2 {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .card_1 {
+        padding: 29px;
+        width: 100%;
+    }
+
+    .main_skills_headings p {
+        font-size: 14px;
+    }
+
+    .number {
+        gap: 12px;
+    }
+
+    .number>p {
+        font-size: 25px;
+    }
+
+    .profiles {
+        gap: 33px;
+    }
+
+    .heading_last a {
+        text-align: center;
+        text-decoration: none;
+        color: var(--Gray-600, #4B5563);
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-decoration-line: underline;
+    }
+
+    .btn_skills {
+        width: 40%;
+    }
+
+    .box {
+        padding: 35px 35px;
+    }
+
+    .menu_heading h1 {
+        font-size: 14px;
+    }
+
+    .menu_heading p {
+        font-size: 12px;
+    }
+
+    .list_info {
+        width: 100%;
+    }
+
+    .list_info ul li {
+        font-size: 14px;
+    }
+
+    .technology {
+        padding-top: 22px;
+        display: flex;
+        align-items: center;
+        gap: 19px;
+        flex-wrap: wrap;
+    }
+
+    .heading h1 {
+        overflow: hidden;
+        color: var(--Gray-900, #111827);
+        text-overflow: ellipsis;
+        font-family: Inter;
+        padding-bottom: 16px;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .joint svg {
+        width: 42px;
+        height: 42px;
+    }
+
+    .heading_last svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .platforms {
+        gap: 42px;
+    }
+
+    .number>svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .number>button {
+        width: 22px;
+        height: 22px;
+    }
+
+    .number>button>svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .email {
+        gap: 12px;
+    }
+
+    .email>h1 {
+        font-size: 19px;
+    }
+
+    .email>svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .email>button {
+        width: 22px;
+        height: 22px;
+    }
+
+    .email>button>svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .one {
+        padding: 34px 34px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .im_3 {
+        height: 379px;
+        width: 100%;
+    }
+
+    .text_inf_2>h1 {
+        color: var(--Gray-900, #111827);
+        padding-bottom: 24px;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: -0.6px;
+    }
+
+    .main_sec_1 {
+        padding: 34px 20px;
+    }
+
+    .company {
+        justify-content: center;
+        display: flex;
+    }
+
+    .btn_skills {
+        width: 62%;
+        font-size: 14px;
+    }
+
+    .number>p {
+        font-size: 23px;
+    }
+
+    .list_info ul li {
+        padding-bottom: 18px;
+        color: var(--Gray-600, #4B5563);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .menu_heading {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .main_sec_2 {
+        padding: 5px 44px;
+    }
+}
